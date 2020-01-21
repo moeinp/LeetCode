@@ -1,6 +1,6 @@
 package add_two_numbers_2;
 
-public class Rookie {
+public class ReverseOrder {
 	public static void main(String[] args) {
 		ListNode l1 = new ListNode(2);
 		l1.next = new ListNode(4);
@@ -12,9 +12,10 @@ public class Rookie {
 
 		ListNode l3 = addTwoNumbers(l1, l2);
 		while (l3 != null) {
-			System.out.println(l3.val);
+			System.out.print(l3.val + " --> ");
 			l3 = l3.next;
 		}
+		System.out.println("null");
 
 	}
 
