@@ -1,4 +1,4 @@
-package add_two_numbers_2;
+package add_two_numbers;
 
 public class NonReversedOrder {
 	public static void main(String[] args) {
